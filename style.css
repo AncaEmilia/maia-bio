@@ -1,0 +1,93 @@
+body {
+    display: grid;
+    align-content: space-between;
+    background-image: linear-gradient(#5B5B67, #e7e2d3);
+    padding: 0;
+    margin: 0;
+    font-family: 'Yeon Sung', cursive;
+    color:white;
+}
+
+.navbar{
+    padding: 0rem;
+    margin: 0rem 0rem 1.5rem 0rem;
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-align: center;
+}
+div li {
+    padding: 1rem;
+    width: 25%;
+    background-color: #45485B;
+    text-align: center; 
+    box-shadow: 0.8rem 0.8rem 0.5rem #292D39;
+    transition: 0.6s;
+} 
+
+div li:hover {
+    background-color: #292D39;
+    transform: scale(1.03);   
+}
+
+div a {
+    text-decoration: none;
+    color:white
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    
+} 
+
+.intro{
+    display: grid;
+    align-self: center;
+    justify-self: center;
+} 
+
+div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+    height: auto;
+    border-radius: 25px;
+}
+
+#os {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    width: auto;
+    height: auto;
+    opacity: 0.9;
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotateY(0deg);
+	}
+	to {
+		transform: rotateY(359deg);
+	}
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0rem;
+
+}
+
+footer  {
+    background-color: #45485B;
+    padding: 0.1rem;
+}
+footer p{
+    margin: 1vw;
+}
+
